@@ -1,0 +1,49 @@
+>>> from edad import edad
+
+>>> edad(-3)
+'No existes'
+
+>>> edad(3)
+'Eres niño'
+
+>>> edad(0)
+'Eres niño'
+
+>>> edad(5)
+'Eres niño'
+
+>>> edad(12)
+'Eres niño'
+
+>>> edad(15)
+'Eres adolescente'
+
+>>> edad(40)
+'Eres adulto'
+
+>>> edad(76)
+'Eres adulto mayor'
+
+>>> edad(126)
+'Eres Mumm-Ra'
+
+>>> edad(167)
+'Eres Mumm-Ra'
+
+>>> edad(0)
+'Eres niño'
+
+
+>>> edad(-2)
+'No existes'
+
+
+
+dada la edad enviar los sig mensajes
+si es menor de 0 no existes
+si es menor a 13 eres niño 
+si es menor de 18 eres adolescente
+si es menor a 65 eres adulto 
+si es menor de 120 eres adulto mayor 
+de lo contrario eres Mumm-Ra
+Crear diferentes casos de prueba y escenarios
